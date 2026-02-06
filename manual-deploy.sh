@@ -1,6 +1,6 @@
 ### VARIABLES TO CHANGE - START
-PROJECT_ID=
-SERVICE_NAME=
+PROJECT_ID=kenneth-ly-csu-fullerton
+SERVICE_NAME=manipulate-website
 ### VARIABLES TO CHANGE - END
 
 # ----------- Manual Deployment ------------ #
