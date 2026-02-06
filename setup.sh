@@ -1,9 +1,9 @@
 ### VARIABLES TO CHANGE - START
-PROJECT_ID=
-PROJECT_NUMBER=
-SERVICE_NAME=
-GITHUB_ORG=
-GITHUB_REPO=
+PROJECT_ID=kenneth-ly-csu-fullerton
+PROJECT_NUMBER=52561048938
+SERVICE_NAME=manipulate-website
+GITHUB_ORG=CodePath-Tech-Exchange-CTEx
+GITHUB_REPO=ise-lab2-cicd-The-Manipulators
 ### VARIABLES TO CHANGE - END
 
 # ----------- Set Up GCP Project ----------- #
