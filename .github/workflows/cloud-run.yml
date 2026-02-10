@@ -38,14 +38,15 @@ jobs:
         project_id: '${{ env.PROJECT_ID }}'
         workload_identity_provider: '${{ env.WORKLOAD_IDENTITY_PROVIDER}}'
         service_account: '${{ env.SERVICE_ACCOUNT }}'
-    
+        
+    - name: 'Auth Google'
+      run: 'gcloud config set account 52561048938-compute@developer.gserviceaccount.com'
+
     - name: 'Set up Cloud SDK'
       uses: 'google-github-actions/setup-gcloud@v2'
       with:
         project_id: '${{ env.PROJECT_ID }}'
         version: '>= 363.0.0'
-    - name: 'Auth Google'
-      run: 'gcloud config set account 52561048938-compute@developer.gserviceaccount.com'
     - name: 'Configure docker for GCP'
       run: 'gcloud auth configure-docker'
 
