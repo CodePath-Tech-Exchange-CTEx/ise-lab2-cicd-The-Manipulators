@@ -44,7 +44,8 @@ jobs:
       with:
         project_id: '${{ env.PROJECT_ID }}'
         version: '>= 363.0.0'
-
+    - name: 'Auth Google'
+      run: 'gcloud config set account 52561048938-compute@developer.gserviceaccount.com'
     - name: 'Configure docker for GCP'
       run: 'gcloud auth configure-docker'
 
