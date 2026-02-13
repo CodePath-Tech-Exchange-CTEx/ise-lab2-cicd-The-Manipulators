@@ -14,7 +14,7 @@ env:
   PROJECT_ID: 'kenneth-ly-csu-fullerton'
   SERVICE_NAME: 'manipulate-website'
   SERVICE_REGION: 'us-central1'
-  SERVICE_ACCOUNT: '52561048938-compute@developer.gserviceaccount.com'
+  SERVICE_ACCOUNT: 'github-deployer@kenneth-ly-csu-fullerton.iam.gserviceaccount.com'
   WORKLOAD_IDENTITY_PROVIDER: 'projects/52561048938/locations/global/workloadIdentityPools/github-provider/providers/github-project-repo'
 
 jobs:
